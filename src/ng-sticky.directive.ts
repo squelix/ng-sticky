@@ -26,6 +26,7 @@ export class NgStickyDirective {
   private removeSticky() {
     this.sticked = false;
     this.el.nativeElement.style.position = '';
+    this.el.nativeElement.style.top = '';
     this.render.removeClass(this.el.nativeElement, this.addClass);
   }
 

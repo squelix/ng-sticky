@@ -1,4 +1,6 @@
-# ng-sticky
+# ng-sticky - Squelix-custom
+
+remove the top elem AND the position
 
 Angular 4 Directive
 
