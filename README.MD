@@ -32,15 +32,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import NgStickyDirective
-import { NgStickyDirective } from 'ng-sticky';
+import { NgStickyModule } from 'ng-sticky--fork-squelix';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NgStickyDirective
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgStickyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
