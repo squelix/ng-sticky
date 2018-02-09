@@ -13,12 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonasmedeiros/ng-sticky"
+    "url": "https://github.com/wizbii/ng-sticky"
   },
-  "author": {
-    "name": "Jonas Medeiros",
-    "email": "jonas.g.medeiros@gmail.com"
-  },
+  "authors": [
+    {
+      "name": "Jonas Medeiros",
+      "email": "jonas.g.medeiros@gmail.com"
+    },
+    {
+      "name": "Mickael Depardon",
+      "email": "mdepardon01800@gmail.com"
+    }
+  ],
   "keywords": [
     "angular"
   ],
